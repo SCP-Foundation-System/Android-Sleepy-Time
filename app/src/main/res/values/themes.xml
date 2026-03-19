@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.SleepyTime" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
