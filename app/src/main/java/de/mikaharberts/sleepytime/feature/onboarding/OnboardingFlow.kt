@@ -93,7 +93,7 @@ private data class OnboardingUiState(
     val importedFileName: String? = null,
 )
 
-private class OnboardingViewModel : ViewModel() {
+class OnboardingViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(OnboardingUiState())
     val uiState: StateFlow<OnboardingUiState> = _uiState.asStateFlow()
 
