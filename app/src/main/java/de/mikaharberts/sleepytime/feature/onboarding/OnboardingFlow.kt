@@ -87,7 +87,7 @@ private enum class OnboardingStep {
     Import,
 }
 
-private data class OnboardingUiState(
+data class OnboardingUiState(
     val displayName: String = "",
     val selectedThemeMode: ThemeMode = ThemeMode.SYSTEM,
     val importedFileName: String? = null,
